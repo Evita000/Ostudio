@@ -1,7 +1,7 @@
-let balloonGIT;
+let balloonGIF;
 
 function preload() {
-  balloonGIT = loadImage('balloon.gif');
+  balloonGIF = loadImage('assets/balloon.gif');
 }
 
 function setup() {
@@ -11,6 +11,6 @@ function setup() {
 }
 
 function draw() {
-  background(220,255,0);
-  image(balloon,0,0);
+  background(220,200,200);
+  image(balloonGIF,0,0);
 }
